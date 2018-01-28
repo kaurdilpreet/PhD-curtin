@@ -5,6 +5,7 @@ p = 2.13
 P = p/1000
 
 LC = 4.77e4 * P
+
 print ("LC: %d km" %LC)
 
 if LC < 100:
