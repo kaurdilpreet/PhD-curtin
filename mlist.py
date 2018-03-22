@@ -8,7 +8,7 @@ directory = '/Users/dilpreetkaur/Documents/python/Data'
 for filename in os.listdir(directory):
     if filename.endswith(".py"):
         test= os.path.join(directory, filename)       
-	subprocess.call(["unlink", test])
+	subprocess.Popen(["unlink", test])
 
 
 
